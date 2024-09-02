@@ -1,0 +1,114 @@
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background: url(img/bg.jpg);
+    height: 700px;
+    color: white;
+}
+
+.right {
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    display: inline-block;
+    width: 145px;
+}
+
+.mid {
+    display: block;
+    width: 48%;
+    margin:auto;
+
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 44px;
+    top: 20px;
+    font-size: 10px;
+}
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 16px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    padding: 23px;
+    display: block;
+    font-size: 20px;
+}
+
+.left img {
+    width: 80px;
+    filter: invert(100%);
+    border-radius: 40px;
+}
+
+.left div {
+    font-family: cursive;
+    text-align: center;
+    font-size: 15px;
+    line-height: 9px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: aqua;
+}
+
+.btn {
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: cursive;
+}
+.right button{
+  margin: 2px 7px;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 0);
+}
+
+.btn:active {
+    background-color: aqua;
+    color: black;
+}
+.container{
+    border:2px solid rgb(255, 255, 255);
+    margin: 40px auto;
+    width: 46%;
+    border-radius: 33px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.container input{
+    padding:5px;
+    margin: 9px auto;
+    display: block;
+    border-radius: 7px;
+    width: 225px;
+    text-align: center;
+}
+.container div{
+    text-align: center;
+    padding: 1px 2px;
+    margin: 15px 0px;
+    font-size: 22px;
+    font-family: cursive;
+}
+.container button{
+    display: block;
+    margin:  18px auto;
+    width:225px;
+}
