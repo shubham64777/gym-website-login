@@ -1,2 +1,4 @@
 # gym-website-login
-gym login pages designes using basic properties of html and css
+gym login pages designed using basic properties of html and css
+<br>
+author "shubham kumar"
